@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="266px" height="97px" viewBox="0 0 266 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Title</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="266" height="97" rx="26"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="266" height="97" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Welcome-Screen" transform="translate(-55.000000, -43.000000)">
+            <g id="Title" transform="translate(55.000000, 43.000000)">
+                <text id="taskIt" font-family="Comfortaa-Bold, Comfortaa" font-size="70" font-weight="bold" letter-spacing="0.89635855" fill="#FFFFFF">
+                    <tspan x="35" y="71">taskIt</tspan>
+                </text>
+                <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
