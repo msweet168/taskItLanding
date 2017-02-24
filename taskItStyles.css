@@ -41,6 +41,28 @@ body {
     font-size: 15px;
 }
 
+#sweetDevLink {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: white;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 15px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sweetDevLink:hover {
+    border-color: black;
+}
+
 @media screen and (max-width:600px) {
     
     #mainIcon {
