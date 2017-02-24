@@ -1,0 +1,42 @@
+body {
+    background-color: #0076FF;
+}
+
+#mainIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    height: 120px;
+}
+
+#slogan {
+    font-family: "Comfortaa";
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footnote {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#copyright {
+    font-family: "Comfortaa";
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
