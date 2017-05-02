@@ -1,7 +1,311 @@
 body {
     background-color: #0076FF;
+    margin: 0px;
 }
 
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+#blankSpace {
+    height: 80px;
+    border: 0px;
+}
+
+#arrowDiv {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+#arrowPointer {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 118, 255, 0.92);
+    border-width: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-width: 0px;
+    margin-top: 3px;
+    font-family: "Comfortaa";
+}
+
+li a:hover:not(.active) {
+    background-color: #0076FF;
+}
+
+/*.active {
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 0px;
+}
+*/
+
+#titleImg {
+    font-size: 45px;
+    padding-left: 30px;
+}
+
+#navButton {
+    margin-top: 25px;
+}
+
+#navButton:hover {
+    color: #beb6b6;
+}
+
+.seperator {
+    width: 100%;
+    background-color: white;
+    height: 20px;
+    z-index: 9;
+    position: relative;
+}
+
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+    min-height: 50px;
+    position: relative;
+}
+
+.parallax{ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sec1 {
+    background-image: url("firsttry.jpg");
+    overflow: hidden;
+
+}
+
+#sec1overlay {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+    position: relative;
+    background-color: rgba(0, 118, 255, 0.9);
+}
+
+#sec2 {
+    z-index: 2;
+    background-color: #0076ff;
+    overflow: hidden;
+}
+
+#sec3 {
+    z-index: 3;
+    background-color: #0076ff;
+    overflow: hidden;
+}
+
+#sec4 {
+    z-index: 4;
+    background-color: #0076ff;
+    overflow: hidden;
+}
+
+
+#arrowHider {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    /*background-color: #0076ff;*/
+}
+
+
+#screenshot1 {
+    width: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+#slogan {
+    font-family: "Comfortaa";
+    font-weight: 300;
+    color: white;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+#firstDesc {
+    font-family: "avenir next";
+    color: white;
+    font-weight: 100;
+    line-height: 1.5em;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#storeBadge {
+    width: 220px;
+    margin-top: 6%;;
+    margin-left: 20%;
+}
+
+#screenshot2 {
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 100px;
+    float: left;
+}
+
+#hyperHeading {
+    font-family: "Comfortaa";
+    font-weight: 300;
+    color: white;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+#secondDesc {
+    font-family: "avenir next";
+    color: white;
+    font-weight: 100;
+    line-height: 1.5em;
+    margin-top: 50px;
+    margin-right: 30px;
+    
+}
+
+#screenshot3 {
+    width: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+#eventHeading {
+    font-family: "Comfortaa";
+    font-weight: 300;
+    color: white;
+    padding-left: 30px;
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+#thirdDesc {
+    font-family: "avenir next";
+    color: white;
+    font-weight: 100;
+    line-height: 1.5em;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
+#endIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 100px;
+    
+}
+
+#endHeading {
+    
+    font-family: "Comfortaa";
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+#endBadge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 70px;
+}
+
+
+
+#sweetDevLink {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: white;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sweetDevLink:hover {
+    border-color: black;
+}
+
+#endFooter {
+    font-family: "avenir next";
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/*
 #mainIcon {
     display: block;
     margin-left: auto;
@@ -10,13 +314,7 @@ body {
     height: 120px;
 }
 
-#slogan {
-    font-family: "Comfortaa";
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-}
+
 
 #footnote {
     font-family: "Comfortaa";
@@ -71,6 +369,7 @@ body {
 #sweetDevLink:hover {
     border-color: black;
 }
+*/
 
 @media screen and (max-width:600px) {
     
