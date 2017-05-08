@@ -302,74 +302,57 @@ li a:hover:not(.active) {
 
 
 
-
-
-
-/*
-#mainIcon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30vh;
-    height: 120px;
-}
-
-
-
-#footnote {
-    font-family: "Comfortaa";
-    font-weight: 400;
-    color: white;
+#statusTitle {
+    font-family: "comfortaa";
     text-align: center;
-    margin-top: 45px;
-    font-size: 25px;
-}
-
-#moreInfo {
-    font-family: "Comfortaa";
-    font-weight: 300;
     color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
-#footer {
-    position: absolute;
+
+.smallSeperator {
+    height: 4px;
     width: 100%;
-    bottom: 0;
+    background-color: white
 }
 
-#copyright {
-    font-family: "Comfortaa";
-    font-weight: 300;
+.systemHeader {
+    font-family: "comfortaa";
+    font-weight: 100;
+    font-size: 35px;
     color: white;
     text-align: center;
-    font-size: 15px;
+    
 }
 
-#sweetDevLink {
-    color: black;
+.statusIcon {
+    padding-top: 10px;
+    width: 35px;
+    padding-left: 10px;
+}
+
+.back{
+	color: #0076ff;
     background-color: white;
-    font-size: 15px;
-    font-family: "Comfortaa";
-    font-weight: 700;
-    border: 2px solid;
-    border-radius: 25px;
-    border-color: white;
-    height: 30px;
-    width: 200px;
-    margin-bottom: 15px;
-    
+	font-size: 25px;
+	font-family: "comfortaa";
+    font-weight: 300;
+	border: 2px solid;
+	border-radius: 25px;
+	height: 50px;
+    width: 300px;
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+	
 }
 
-#sweetDevLink:hover {
-    border-color: black;
-}
-*/
+
 
 @media screen and (max-width:600px) {
     
