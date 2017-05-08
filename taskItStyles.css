@@ -352,6 +352,11 @@ li a:hover:not(.active) {
 	
 }
 
+.back:hover {
+    border-color: black;
+    border-width: 2px;
+}
+
 
 
 @media screen and (max-width:600px) {
